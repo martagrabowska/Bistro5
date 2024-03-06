@@ -1,0 +1,91 @@
+.background {
+  background-color: #90a9555d;
+  height: 672px;
+  width: 1706px;
+  margin-top: 104px;
+  margin-bottom: 247px;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-size: 60px;
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 3px rgba(0, 0, 0, 0.164);
+}
+
+.menu-subtitle {
+  font-size: 18px;
+}
+
+.menu-title {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "italiana";
+}
+
+.menu {
+  background-color: #90a95509;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  outline-color: black;
+  outline-style: solid;
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+  align-items: flex-end;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  background-size: co;
+  background-position: center;
+}
+.menu-options {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 60px;
+  max-width: 1420px;
+  max-height: 100px;
+  margin: auto 80px auto;
+}
+
+@media (width >= 320px) {
+  grid-template-columns: auto auto auto auto;
+}
+
+@media (width >= 640px) {
+  grid-template-columns: auto auto auto auto;
+}
+
+.menu-textblock {
+  background-color: rgba(255, 255, 255, 0.76);
+  justify-content: center;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  align-items: flex-end;
+}
+
+.menu:hover {
+  box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.847);
+  cursor: pointer;
+}
+.appetisers {
+  background-image: url(https://media.istockphoto.com/id/184339275/photo/close-up-of-cooked-scallops-on-bed-of-vegetables.jpg?s=612x612&w=0&k=20&c=I395cY6yeF4g1osRr_kZ5s0gkEKy1tKf4FGCkeAlF5E=);
+}
+
+.featured-dishes {
+  background-image: url(https://media.istockphoto.com/id/491405028/photo/foie-gras-and-yaki-onigiri-steak-grilled-onigiri.jpg?s=612x612&w=0&k=20&c=ua_VTSPhILUAmfAgWgsI0sIyJB5HSMAbfhrPsC9zZPQ=);
+}
+.desserts {
+  background-image: url(https://media.istockphoto.com/id/486620648/photo/tart-with-fresh-berries.jpg?s=612x612&w=0&k=20&c=5L2J-IXyrKnvuOz_DjT4d8z_jJDXbaoHQZ7wPxq4POM=);
+}
+
+.beverages {
+  background-image: url(https://media.istockphoto.com/id/1011813752/photo/three-glass-of-white-red-and-rose-wine-with-dim-light-in-wooden-restaurant-table-with-a-grape.jpg?s=612x612&w=0&k=20&c=aEeaP1NWPubkYQ10-9TOpueCPgBELUWbWmoKDyPwACY=);
+}
