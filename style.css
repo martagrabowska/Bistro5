@@ -18,9 +18,17 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .hero-text {
+    flex: 1;
+    margin: 60px;
+    padding: 20px;
+
     position: relative;
     text-align: center;
     display: flex;
@@ -29,7 +37,6 @@ h1 {
     padding-bottom: 40px;
     color: #283618;
     max-width: 40%;
-    margin: auto;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
