@@ -47,107 +47,192 @@ body {
   font-size: 20px;
 }
 
-/* ------ */
+/* menu header */
 
-.background {
-  background-color: #90a9555d;
-  width: 100%;
-  margin-top: 104px;
-  margin-bottom: 247px;
-  padding-bottom: 20px;
-}
-
-.title {
-  text-align: center;
-  color: black;
-  font-size: 60px;
-  font-family: "Italiana", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-shadow: 2px 3px rgba(0, 0, 0, 0.164);
-}
-
-.menu-subtitle {
-  font-size: 18px;
-}
-
-.menu-title {
-  font-size: 20px;
-  font-weight: 600;
-  font-family: "italiana";
-}
-
-.menu {
-  background-color: #90a95509;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  outline-color: black;
-  outline-style: solid;
-  border-radius: 10px;
-  height: 400px;
-  align-items: flex-end;
-  padding-bottom: 24px;
-  padding-top: 24px;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: black;
-  background-size: cover;
-  background-position: center;
-}
 a {
-  text-decoration: none !important;
-}
-.menu-options {
-  display: grid;
-  grid-template-columns: auto;
-  gap: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-@media (width >= 450px) {
-  .menu-options {
-    grid-template-columns: auto auto;
-  }
-}
-
-@media (width >= 800px) {
-  .menu-options {
-    grid-template-columns: auto auto auto auto;
-  }
-}
-
-.menu-textblock {
-  background-color: rgba(255, 255, 255, 0.76);
-  justify-content: center;
-  border-radius: 10px;
-  height: 160px;
-  width: auto;
-  align-items: flex-end;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.menu:hover {
-  box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.847);
   cursor: pointer;
 }
-.appetisers {
-  background-image: url(https://media.istockphoto.com/id/184339275/photo/close-up-of-cooked-scallops-on-bed-of-vegetables.jpg?s=612x612&w=0&k=20&c=I395cY6yeF4g1osRr_kZ5s0gkEKy1tKf4FGCkeAlF5E=);
+
+.header-main {
+  width: 100%;
+  height: 80px;
+  background-color: #fafae3;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 8px 6px -6px #606c38;
 }
 
-.featured-dishes {
-  background-image: url(https://media.istockphoto.com/id/491405028/photo/foie-gras-and-yaki-onigiri-steak-grilled-onigiri.jpg?s=612x612&w=0&k=20&c=ua_VTSPhILUAmfAgWgsI0sIyJB5HSMAbfhrPsC9zZPQ=);
-}
-.desserts {
-  background-image: url(https://media.istockphoto.com/id/486620648/photo/tart-with-fresh-berries.jpg?s=612x612&w=0&k=20&c=5L2J-IXyrKnvuOz_DjT4d8z_jJDXbaoHQZ7wPxq4POM=);
+.header-logo {
+  width: fit-content;
+  height: 100%;
+  padding-left: 60px;
+  display: flex;
 }
 
-.beverages {
-  background-image: url(https://media.istockphoto.com/id/1011813752/photo/three-glass-of-white-red-and-rose-wine-with-dim-light-in-wooden-restaurant-table-with-a-grape.jpg?s=612x612&w=0&k=20&c=aEeaP1NWPubkYQ10-9TOpueCPgBELUWbWmoKDyPwACY=);
-<<<<<<< HEAD
+.header-logo img {
+  height: 55px;
+  align-self: center;
+  padding: 15px;
 }
-=======
+
+.header-nav {
+  width: fit-content;
+  height: 100%;
 }
->>>>>>> beafaefc5ffd6ca6da4ecac67ad6b133ca9ebea5
+
+.header-nav ul {
+  list-style: none;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+  margin-right: 10px;
+}
+
+.header-nav ul li a {
+  padding: 30 10px;
+  height: 100%;
+  font-family: "Italiana", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 50px;
+  align-self: center;
+  color: #283618;
+}
+
+.header-nav ul li a:hover {
+  color: #606c38;
+}
+
+button {
+  font-family: "Italiana", sans-serif;
+  font-size: 16px;
+  color: #fafae3;
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: rgb(96, 108, 56, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgb(96, 108, 56, 0.8);
+}
+
+/* menu footer */
+
+footer {
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  margin-bottom: 0;
+  background-color: #606c38;
+}
+
+.row {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col1 {
+  padding: 30px;
+}
+
+.logo2 {
+  width: 250px;
+}
+
+.col2 ul li {
+  list-style: none;
+}
+.col2 ul li a {
+  width: fit-content;
+  height: 100%;
+  padding: 0;
+  font-family: "Italiana", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 50px;
+  align-self: center;
+  color: #fafae3;
+}
+
+.col2 ul li a:hover {
+  color: #283618;
+}
+
+.col3 ul li {
+  list-style: none;
+}
+
+.col3 ul li a {
+  width: fit-content;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  font-family: "Italiana", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 50px;
+  align-self: center;
+  color: #fafae3;
+}
+
+.col3 ul li a:hover {
+  color: #283618;
+}
+
+.col4 {
+  padding: 50px;
+}
+
+.col4 ul li {
+  list-style: none;
+}
+
+.col4 ul li a button {
+  font-family: "Italiana", sans-serif;
+  font-size: 16px;
+  color: #283618;
+  margin-left: 20px;
+
+  background-color: rgb(250, 250, 227, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.col4 ul li a button:hover {
+  background-color: rgb(250, 250, 227, 0.8);
+}
+
+.col5 {
+  padding: 30px;
+}
+
+.logofb {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.logoin {
+  width: 40px;
+  height: 40px;
+}
+
+.logotw {
+  width: 40px;
+  height: 40px;
+}
+
+.credit {
+  width: 160px;
+}
