@@ -46,3 +46,193 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
+
+/* menu header */
+
+a {
+  cursor: pointer;
+}
+
+.header-main {
+  width: 100%;
+  height: 80px;
+  background-color: #fafae3;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 8px 6px -6px #606c38;
+}
+
+.header-logo {
+  width: fit-content;
+  height: 100%;
+  padding-left: 60px;
+  display: flex;
+}
+
+.header-logo img {
+  height: 55px;
+  align-self: center;
+  padding: 15px;
+}
+
+.header-nav {
+  width: fit-content;
+  height: 100%;
+}
+
+.header-nav ul {
+  list-style: none;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+  margin-right: 10px;
+}
+
+.header-nav ul li a {
+  padding: 30 10px;
+  height: 100%;
+  font-family: "Italiana", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 50px;
+  align-self: center;
+  color: #283618;
+}
+
+.header-nav ul li a:hover {
+  color: #606c38;
+}
+
+button {
+  font-family: "Italiana", sans-serif;
+  font-size: 16px;
+  color: #fafae3;
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: rgb(96, 108, 56, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgb(96, 108, 56, 0.8);
+}
+
+/* menu footer */
+
+footer {
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  margin-bottom: 0;
+  background-color: #606c38;
+}
+
+.row {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col1 {
+  padding: 30px;
+}
+
+.logo2 {
+  width: 250px;
+}
+
+.col2 ul li {
+  list-style: none;
+}
+.col2 ul li a {
+  width: fit-content;
+  height: 100%;
+  padding: 0;
+  font-family: "Italiana", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 50px;
+  align-self: center;
+  color: #fafae3;
+}
+
+.col2 ul li a:hover {
+  color: #283618;
+}
+
+.col3 ul li {
+  list-style: none;
+}
+
+.col3 ul li a {
+  width: fit-content;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  font-family: "Italiana", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 50px;
+  align-self: center;
+  color: #fafae3;
+}
+
+.col3 ul li a:hover {
+  color: #283618;
+}
+
+.col4 {
+  padding: 50px;
+}
+
+.col4 ul li {
+  list-style: none;
+}
+
+.col4 ul li a button {
+  font-family: "Italiana", sans-serif;
+  font-size: 16px;
+  color: #283618;
+  margin-left: 20px;
+
+  background-color: rgb(250, 250, 227, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.col4 ul li a button:hover {
+  background-color: rgb(250, 250, 227, 0.8);
+}
+
+.col5 {
+  padding: 30px;
+}
+
+.logofb {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.logoin {
+  width: 40px;
+  height: 40px;
+}
+
+.logotw {
+  width: 40px;
+  height: 40px;
+}
+
+.credit {
+  width: 160px;
+}
