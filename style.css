@@ -82,6 +82,10 @@ h1 {
   position: relative;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Marta's code */
 
 /* rubina's code  */
