@@ -86,6 +86,19 @@ html {
   scroll-behavior: smooth;
 }
 
+#countdown {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 0px;
+}
+
+#demo {
+  font-weight: 600;
+}
+
 /* Marta's code */
 
 /* rubina's code  */
