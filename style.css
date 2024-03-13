@@ -92,11 +92,12 @@ html {
   position: relative;
   text-align: center;
   padding-top: 48px;
-  padding-bottom: 0px;
+
 }
 
 #demo {
   font-weight: 600;
+  letter-spacing: 0.3em;
 }
 
 /* Marta's code */
