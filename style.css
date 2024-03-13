@@ -97,7 +97,8 @@ html {
 
 #demo {
   font-weight: 600;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.1em;
+  word-spacing: 30px;
 }
 
 /* Marta's code */
